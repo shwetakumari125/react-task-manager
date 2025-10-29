@@ -1,11 +1,11 @@
-# 📝 React Task Manager
+# React Task Manager
 
 A simple and responsive **Task Management App** built with **React**, **Redux Toolkit**, and **JSON Server**.
 It allows users to perform full CRUD (Create, Read, Update, Delete) operations on tasks.
 
 ---
 
-## 🚀 Features
+## Features
 
 * Add, edit, delete, and update task status
 * Drag-and-drop task organization (using `@hello-pangea/dnd`)
@@ -15,7 +15,7 @@ It allows users to perform full CRUD (Create, Read, Update, Delete) operations o
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Frontend:** React, Redux Toolkit, React Router DOM
 * **Backend (Mock API):** JSON Server
@@ -24,7 +24,7 @@ It allows users to perform full CRUD (Create, Read, Update, Delete) operations o
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 Clone the repository and install dependencies:
 
@@ -80,32 +80,7 @@ react-task-manager/
 └── README.md
 ```
 
----
 
-## 💾 Backend (JSON Server)
 
-`db.json` serves as the mock database.
-Example structure:
 
-```json
-{
-  "tasks": [
-    { "id": 1, "title": "Learn React", "status": "Pending" },
-    { "id": 2, "title": "Build Task Manager", "status": "Completed" }
-  ]
-}
-```
 
----
-
-## 📸 Screenshots (Optional)
-
-You can add screenshots or a short demo GIF here to make your README stand out.
-
----
-
-## 🙌 Author
-
-**Shweta Kumari**
-📧 [Your Email or LinkedIn URL]
-🖇️ [GitHub Profile](https://github.com/shwetakumari125)
