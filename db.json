@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": "2",
+      "title": "Finish assignment",
+      "description": "Complete as soon as possible",
+      "status": "Pending",
+      "dueDate": "2025-11-05",
+      "order": 1
+    },
+    {
+      "id": "286d",
+      "title": "Complete assignment",
+      "description": "Need to complete assignment before EOD",
+      "dueDate": "2025-10-30",
+      "status": "Pending",
+      "order": 3
+    },
+    {
+      "id": "a22d",
+      "title": "Keep yourself hydrated",
+      "description": "Drink 4l of water daily.",
+      "dueDate": "2025-12-01",
+      "status": "Pending",
+      "order": 2
+    }
+  ]
+}
