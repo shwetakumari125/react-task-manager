@@ -24,10 +24,7 @@ export default function EditTaskPage(){
   if(!ready) return <div>Loading task...</div>;
   if(!task) return <div>Task not found</div>;
 
-  function handleToggleStatus() {
-    const newStatus = currentStatus === "Pending" ? "Completed" : "Pending";
-    setCurrentStatus(newStatus);
-  }
+
 
   async function handleUpdate(data){
     const updatedData = {
@@ -44,9 +41,11 @@ export default function EditTaskPage(){
     navigate("/tasks");
   }
 
-  function handleToggleStatus(){
-    dispatch(toggleStatusLocal(task.id));
-  }
+function handleToggleStatus() {
+  const newStatus = currentStatus === "Pending" ? "Completed" : "Pending";
+  setCurrentStatus(newStatus);
+  dispatch(toggleStatusLocal(task.id));
+}
 
   return (
     <div>

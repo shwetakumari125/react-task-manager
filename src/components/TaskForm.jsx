@@ -5,9 +5,9 @@ export default function TaskForm({ initial, onSubmit, submitLabel = "Save", show
   const initialForm = initial ?? defaultInitial;
   const [form, setForm] = useState(initialForm);
   const [errors, setErrors] = useState({});
-  useEffect(() => {
-    setForm(initialForm);
-  }, [initialForm?.id]);
+useEffect(() => {
+  setForm(initial ?? defaultInitial);
+}, [initial]);
 
   function validate(){
     const err = {};
