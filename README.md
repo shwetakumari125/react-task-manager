@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# 📝 React Task Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and responsive **Task Management App** built with **React**, **Redux Toolkit**, and **JSON Server**.
+It allows users to perform full CRUD (Create, Read, Update, Delete) operations on tasks.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+* Add, edit, delete, and update task status
+* Drag-and-drop task organization (using `@hello-pangea/dnd`)
+* Persistent mock backend using `json-server`
+* State management with Redux Toolkit
+* Responsive UI with Tailwind CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+* **Frontend:** React, Redux Toolkit, React Router DOM
+* **Backend (Mock API):** JSON Server
+* **Styling:** Tailwind CSS
+* **Others:** Axios, Concurrently
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ⚙️ Installation & Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the repository and install dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/shwetakumari125/react-task-manager.git
+cd react-task-manager
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+### 🧩 Run the App Locally
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Start both the frontend and backend servers together:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm run dev
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This will start:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Frontend on: **[http://localhost:3000/](http://localhost:3000/)**
+* JSON Server API on: **[http://localhost:3001/tasks](http://localhost:3001/tasks)**
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🧠 Available Scripts
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Command             | Description                              |
+| ------------------- | ---------------------------------------- |
+| `npm start`         | Run React app only                       |
+| `npm run start:api` | Start JSON Server (backend only)         |
+| `npm run dev`       | Run both frontend + backend concurrently |
+| `npm run build`     | Build the app for production             |
+| `npm run deploy`    | Deploy to GitHub Pages (if configured)   |
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📂 Folder Structure
 
-### Analyzing the Bundle Size
+```
+react-task-manager/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── redux/
+│   └── App.js
+│
+├── db.json
+├── package.json
+├── tailwind.config.js
+└── README.md
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 💾 Backend (JSON Server)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+`db.json` serves as the mock database.
+Example structure:
 
-### Advanced Configuration
+```json
+{
+  "tasks": [
+    { "id": 1, "title": "Learn React", "status": "Pending" },
+    { "id": 2, "title": "Build Task Manager", "status": "Completed" }
+  ]
+}
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 📸 Screenshots (Optional)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can add screenshots or a short demo GIF here to make your README stand out.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🙌 Author
+
+**Shweta Kumari**
+📧 [Your Email or LinkedIn URL]
+🖇️ [GitHub Profile](https://github.com/shwetakumari125)
