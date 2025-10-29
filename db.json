@@ -1,20 +1,36 @@
 {
   "tasks": [
     {
-      "id": "286d",
-      "title": "Complete assignment",
-      "description": "Need to complete assignment before EOD",
-      "dueDate": "2025-10-30",
-      "status": "Pending",
-      "order": 3
+      "id": "9f3d",
+      "title": "Design Login Page",
+      "description": "Create responsive login & signup pages using Tailwind CSS.",
+      "dueDate": "2025-10-17",
+      "status": "Completed",
+      "order": 0
     },
     {
-      "id": "a22d",
-      "title": "Keep yourself hydrated",
-      "description": "Drink 4l of water daily.",
-      "dueDate": "2025-12-01",
+      "id": "9d25",
+      "title": "Integrate Redux Toolkit",
+      "description": "Add Redux for state management and connect it with task components.",
+      "dueDate": "2025-10-17",
+      "status": "Pending",
+      "order": 1
+    },
+    {
+      "id": "f02f",
+      "title": "Implement CRUD with JSON Server",
+      "description": "Configure API endpoints for create, update, delete, and fetch tasks.",
+      "dueDate": "2025-10-22",
       "status": "Pending",
       "order": 2
+    },
+    {
+      "id": "560a",
+      "title": "Add Drag and Drop",
+      "description": "Use @hello-pangea/dnd to reorder tasks between lists.",
+      "dueDate": "2025-10-11",
+      "status": "Completed",
+      "order": 3
     }
   ]
 }

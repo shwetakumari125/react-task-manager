@@ -36,7 +36,7 @@ npm install
 
 ---
 
-### 🧩 Run the App Locally
+###  Run the App Locally
 
 Start both the frontend and backend servers together:
 
@@ -51,7 +51,7 @@ This will start:
 
 ---
 
-### 🧠 Available Scripts
+### Available Scripts
 
 | Command             | Description                              |
 | ------------------- | ---------------------------------------- |
@@ -63,7 +63,7 @@ This will start:
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 
 ```
 react-task-manager/
@@ -79,6 +79,13 @@ react-task-manager/
 ├── tailwind.config.js
 └── README.md
 ```
+
+## Screenshots
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
 
 
 
